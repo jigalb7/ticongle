@@ -1,0 +1,2100 @@
+.banner {
+ height: 490px;
+}
+
+.ups{
+  margin-top: 60px;
+}
+
+.imagen {
+width: 100%;
+height: 470px; 
+
+}
+
+.secciones {
+margin-top: 60px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #00b985;
+  border-color: #00b985;
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #00b985;
+  border-color: #00b985;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #00b985;
+  border-color: #00b985;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width:0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 5px;
+    min-height: 360px;/***se agrego**/
+}
+
+.foto {
+width: 100%;
+height: 80px; 
+
+}
+
+/**espacio en ver perfil***/
+.burbuja{
+  margin: 2px;
+  float: left;;
+}
+
+.burbuja2{
+  margin: 4px;
+  float: left;
+}
+
+/***foto de perfil de archivo otros******/
+
+.fotoperfil {
+width: 60%;
+height: auto; 
+}
+/***fin de foto de perfil de archivo otros******/
+
+
+.nombres {
+color: #00b985;
+font-weight: bold;
+}
+
+.nombres1 {
+color: #00b985;
+font-size: 22px;
+width:100%;
+}
+
+.linea {
+  border-top: 1px solid #00b985;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  line-height: 1;
+  color: #303030;
+  text-align: center;
+  white-space: normal;
+  vertical-align: baseline;
+  border-radius: .25em;
+  font-size: 13px;
+}
+
+.label-default {
+  background-color: #dddde0;
+}
+
+.fondo {
+
+padding: 15px 0px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+/*F.M*/
+.valores{
+  padding: 20px 5px;
+}
+.fondoNos{
+  background: #f5f5f5;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.content{
+  overflow: auto;
+  position: relative;
+  padding: 20px;
+  background: #f5f5f5;
+  margin: 10px 0px;
+  
+  width: 100%;
+  height: 600px;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.content.hidden{ display: none; }
+
+.chapter__title {
+    position: absolute;
+    
+    
+    z-index: 200;
+    height: 600px;
+}
+.imgNos{
+    position: relative;
+    margin: 15px 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 577px;
+}
+
+
+.chapter__content {
+    position: relative;
+    
+    left: 50%;
+    z-index: 100;
+}
+
+.ui-tabs{
+  height: 600px;
+}
+
+.ui-widget-header {
+    border-bottom: 1px solid #aaaaaa; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: none;
+    color: #222222;
+    font-weight: bold;
+}
+
+.benecolor{
+  color: #824599;
+}
+
+.requisicolor{
+  color: #087dad;
+}
+
+.unecolor{
+  color: #ef9219;
+}
+
+/**********LINEA DE CUADROS DE TEXTOS de  archivo perfil_perso**********/
+
+.division{
+background-color: #f5f5f5;
+}
+
+.orilla{
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+
+}
+
+.espaciado{
+margin: 5px;
+}
+
+.lala{
+margin-bottom: 18px;
+margin-top: 18px;
+}
+
+
+
+
+/******* bottom de selleccionar perfil y mas de  archivo otro ********/
+
+
+
+/**enero 10 jueves*/
+.btn1 {
+  
+  background-color: #824599;
+    display: inline-block;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+.btn1_1 {
+  
+  /*float: right;*/
+  background-color: #824599;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+.btn1_2 {
+  
+  float: right;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+.btn-butom {
+    color: #fff;
+    background-color: #824599;
+    border-color: #824599;
+  }
+
+  .proyecto{
+    color: #824599;
+    font-size: 36px;
+    font-family: Quicksand;
+    letter-spacing: 1px;
+  }
+
+
+/*15/01 para calendarios de asigna_proyecto*/
+.formElements1 {
+      display: block;
+      width: 100%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+.letritas{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+
+/**Febrero 06 modal*/
+#myModalLabel{
+color: #007cff;
+}
+
+.btn-primarys {
+    color: #fff;
+    background-color: #007cff;
+    border-color: #007cff;
+}
+/**Febrero 06 modal*/
+
+/*febrero 20*/
+.valores{
+  color: #000;
+}
+/*febrero 20*/
+
+/*PANTALLA MEDIANA, TABLET Y PC MINI*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+  .formElements {
+      display: block;
+      width: 80%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+  
+  .titfunciona{
+    margin-top:180px;
+    margin-left: 50px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.foto {
+  width: 80%;
+  height: auto; 
+
+  }
+/*TABLET O MINI LAPTOP
+Clase para las primeras 3 animaciones width define el tamaño
+padding-top es quien define a que altura estará el dibujo*/
+.bnrSlide{
+    width: 70%; 
+    height: 100px;
+    padding-top: 12%;
+  }
+
+  .titfunciona{
+    margin-top:500px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:100px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Clase para la cuarta y ultima animación
+width define el tamaño
+padding-top es quien define a que altura estará el dibujo
+*/
+  .bnrSlide2{
+    width: 65%; 
+    height: 75px;
+    padding-top: 12%;
+    margin-left: 130px;
+  }
+
+  .container-envelope h1{
+    font-size: 36px;
+  }
+
+  
+
+  /*Febrero 14*/
+  .estos{
+  text-align: center;
+  }
+
+  .container-envelope {  
+    top: 2%;
+    left: 3%;
+    width: 50%
+  }
+  .container-envelope-right {
+    top: 2%;
+    right: 3%;
+    width: 50%
+  }
+
+}/*Se acaba TABLET / Mini laptop*/
+
+/*PANTALLA CELULAR*/
+@media screen and (max-width: 480px){
+
+  .formElements {
+      display: block;
+      width: 100%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+  /*febrero 13*/
+  /*CELULAR
+Clase para las primeras 3 animaciones width define el tamaño
+padding-top es quien define a que altura estará el dibujo*/
+
+  .bnrSlide{
+    width: 80%; 
+    height: 50px;
+    padding-top: 76px;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:290px;
+    margin-left: 5px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:90px;
+    margin-left: 5px;
+    text-align: center;
+    color: #fff;
+  }
+/*Clase para la cuarta y ultima animación
+width define el tamaño
+padding-top es quien define a que altura estará el dibujo
+*/
+  .bnrSlide2{
+    width: 80%; 
+    height: 50px;
+    padding-top: 65px;
+    margin-left: 50px;
+  }
+
+  .container-envelope h1{
+    font-size: 14px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 9px;
+  }
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.container-envelope {  
+    top: 2%;
+    left: 7%;
+    width: 50%
+  }
+  .tituloBnr{
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+  .foto {
+  width: 70%;
+  height: auto; 
+
+  }
+  .container-envelope-right {
+    top: 2%;
+    right: 5%;
+    width: 50%
+  }
+  table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           
+           font-weight:bold;
+           font-size:1em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+
+  /*Febrero 14*/
+  .estos{
+  text-align: center;
+  }
+  .tituloBnr{
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+/*fin pantalla celular*/
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+
+  .formElements {
+      display: block;
+      width: 100%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+  /*febrero 13*/
+  /*CELULAR
+Clase para las primeras 3 animaciones width define el tamaño
+padding-top es quien define a que altura estará el dibujo*/
+
+  .bnrSlide{
+    width: 60%; 
+    height: 50px;
+    padding-top: 30px;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:250px;
+    margin-left: 5px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:90px;
+    margin-left: 5px;
+    text-align: center;
+    color: #fff;
+  }
+/*Clase para la cuarta y ultima animación
+width define el tamaño
+padding-top es quien define a que altura estará el dibujo
+*/
+  .bnrSlide2{
+    width: 50%; 
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 150px;
+  }
+
+  .container-envelope h1{
+    font-size: 14px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 9px;
+  }
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.container-envelope {  
+    top: 2%;
+    left: 7%;
+    width: 50%
+  }
+  .tituloBnr{
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+  .foto {
+  width: 70%;
+  height: auto; 
+
+  }
+  .container-envelope-right {
+    top: 2%;
+    right: 5%;
+    width: 50%
+  }
+  table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           
+           font-weight:bold;
+           font-size:1em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+
+  /*Febrero 14*/
+  .estos{
+  text-align: center;
+  }
+
+
+}
+
+/*PANTALLA PC 
+*/
+
+@media screen and (max-width: 1250px) and (min-width: 992px){
+
+  .formElements {
+    display: block;
+    width: 30%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.container-envelope {  
+    top: 6%;
+    left: 3%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 6%;
+    right: 3%;
+    width: 40%
+  }
+
+.foto {
+width: 80%;
+height: auto; 
+
+}
+/*Laptop o PC normal*/
+.bnrSlide{
+    width: 45%; 
+    height: 50px;
+    padding-top: 86px;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:450px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bnrSlide2{
+    width: 57%; 
+    height: 50px;
+    margin-top: 26px;
+    margin-left: 250px;
+  }
+
+  .container-envelope h1{
+    font-size: 36px;
+
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .estos{
+  text-align: right;
+  }
+
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1250px){
+
+  .formElements {
+    display: block;
+    width: 30%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.container-envelope {  
+    top: 6%;
+    left: 3%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 6%;
+    right: 3%;
+    width: 40%
+  }
+
+.foto {
+width: 80%;
+height: auto; 
+
+}
+/*Laptop o PC normal*/
+.bnrSlide{
+    width: 42%; 
+    height: 50px;
+    padding-top: 86px;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:450px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bnrSlide2{
+    width: 42%; 
+    height: 50px;
+    margin-top: 26px;
+    margin-left: 25%;
+  }
+
+  .container-envelope h1{
+    font-size: 36px;
+
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .estos{
+  text-align: right;
+  }
+
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+/*CUANDO EL NAVEGADOR ESTE ABIERTO A LA MITAD O UN POCO MAS*/  
+@media screen  and (max-width: 1780px) and (min-width: 1440px){
+
+  .formElements {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+ 
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+/*POSICION Y TAMAÑO DE LAS PRIMERAS
+3 ANIMACIONES
+bnrSlide*/
+.bnrSlide{
+    width: 35%; 
+    height: 100%;
+    padding-top: 3%;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:400px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Posicion y tamaño de la cuarta animación
+bnrSlide2
+*/
+  .bnrSlide2{
+    width: 30%; 
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 600px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .container-envelope {  
+    top: 10%;
+    left: 5%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 10%;
+    right: 5%;
+    width: 40%
+  }
+  .foto {
+  width: 90%;
+  height: auto; 
+
+  }
+  .estos{
+  text-align: right;
+  }
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+
+.goup{
+  bottom: 25px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  width: 50px;
+}
+
+.btn2 {
+  background: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.uneteImg{
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-envelope {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.container-envelope-right {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.coll-xs-12{
+  padding: 10px;
+  background-color: rgba(204, 204, 204, .5);
+}
+
+.estrellas{
+  line-height: 0px;
+  font-size: 0px;
+}
+.tituloBnr{
+  font-family: Quicksand;
+}
+.tituloBnr, .tituloBnrs{
+  font-family: Quicksand;
+}
+
+.tituloBnrs {
+    top: 98%;
+   
+}
+.bnrSlide, .bnrUltimo, .bnrSlideEmpleabilidad{
+  
+  margin: 0 auto;
+}
+
+.morado{
+    color: #824599;
+    font-family: Montserrat;
+}
+
+/*end navegador mitad*/
+
+/*Laptop o pc grandes*/  
+@media screen  and (min-width: 1780px) and (max-width: 1900px){
+
+  .formElements {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+ 
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+/*POSICION Y TAMAÑO DE LAS PRIMERAS
+3 ANIMACIONES
+bnrSlide*/
+.bnrSlide{
+    width: 33%; 
+    height: 100%;
+    padding-top: 3%;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:400px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Posicion y tamaño de la cuarta animación
+bnrSlide2
+*/
+  .bnrSlide2{
+    width: 27%; 
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 600px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .container-envelope {  
+    top: 10%;
+    left: 5%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 10%;
+    right: 5%;
+    width: 40%
+  }
+  .foto {
+  width: 90%;
+  height: auto; 
+
+  }
+  .estos{
+  text-align: right;
+  }
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+
+.goup{
+  bottom: 25px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  width: 50px;
+}
+
+.btn2 {
+  background: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.uneteImg{
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-envelope {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.container-envelope-right {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.coll-xs-12{
+  padding: 10px;
+  background-color: rgba(204, 204, 204, .5);
+}
+
+.estrellas{
+  line-height: 0px;
+  font-size: 0px;
+}
+.tituloBnr{
+  font-family: Quicksand;
+}
+.tituloBnr, .tituloBnrs{
+  font-family: Quicksand;
+}
+
+.tituloBnrs {
+    top: 98%;
+   
+}
+.bnrSlide, .bnrUltimo, .bnrSlideEmpleabilidad{
+  
+  margin: 0 auto;
+}
+
+.morado{
+    color: #824599;
+    font-family: Montserrat;
+}
+
+@media screen  and (min-width: 1900px) and (max-width: 2150px){
+
+  .formElements {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+ 
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+/*POSICION Y TAMAÑO DE LAS PRIMERAS
+3 ANIMACIONES
+bnrSlide*/
+.bnrSlide{
+    width: 33%; 
+    height: 100%;
+    padding-top: 3%;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:200px;
+    margin-left: 30px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Posicion y tamaño de la cuarta animación
+bnrSlide2
+*/
+  .bnrSlide2{
+    width: 26%; 
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 750px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .container-envelope {  
+    top: 10%;
+    left: 5%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 10%;
+    right: 5%;
+    width: 40%
+  }
+  .foto {
+  width: 90%;
+  height: auto; 
+
+  }
+  .estos{
+  text-align: right;
+  }
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+
+.goup{
+  bottom: 25px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  width: 50px;
+}
+
+.btn2 {
+  background: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.uneteImg{
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-envelope {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.container-envelope-right {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.coll-xs-12{
+  padding: 10px;
+  background-color: rgba(204, 204, 204, .5);
+}
+
+.estrellas{
+  line-height: 0px;
+  font-size: 0px;
+}
+.tituloBnr{
+  font-family: Quicksand;
+}
+.tituloBnr, .tituloBnrs{
+  font-family: Quicksand;
+}
+
+.tituloBnrs {
+    top: 98%;
+   
+}
+.bnrSlide, .bnrUltimo, .bnrSlideEmpleabilidad{
+  
+  margin: 0 auto;
+}
+
+.morado{
+    color: #824599;
+    font-family: Montserrat;
+}
+
+
+@media screen  and (min-width: 2150px) and (max-width: 2300px){
+
+  .formElements {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+ 
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+/*POSICION Y TAMAÑO DE LAS PRIMERAS
+3 ANIMACIONES
+bnrSlide*/
+.bnrSlide{
+    width: 30%; 
+    height: 100%;
+    padding-top: 3%;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:400px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Posicion y tamaño de la cuarta animación
+bnrSlide2
+*/
+  .bnrSlide2{
+    width: 23%; 
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 850px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .container-envelope {  
+    top: 10%;
+    left: 5%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 10%;
+    right: 5%;
+    width: 40%
+  }
+  .foto {
+  width: 90%;
+  height: auto; 
+
+  }
+  .estos{
+  text-align: right;
+  }
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+
+.goup{
+  bottom: 25px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  width: 50px;
+}
+
+.btn2 {
+  background: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.uneteImg{
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-envelope {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.container-envelope-right {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.coll-xs-12{
+  padding: 10px;
+  background-color: rgba(204, 204, 204, .5);
+}
+
+.estrellas{
+  line-height: 0px;
+  font-size: 0px;
+}
+.tituloBnr{
+  font-family: Quicksand;
+}
+.tituloBnr, .tituloBnrs{
+  font-family: Quicksand;
+}
+
+.tituloBnrs {
+    top: 98%;
+   
+}
+.bnrSlide, .bnrUltimo, .bnrSlideEmpleabilidad{
+  
+  margin: 0 auto;
+}
+
+.morado{
+    color: #824599;
+    font-family: Montserrat;
+}
+
+@media screen  and (min-width: 2300px) and (max-width: 2560px){
+
+  .formElements {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+ 
+
+  .card-body2 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #8bc4e2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 100%;/***se agrego**/
+}
+
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+/*POSICION Y TAMAÑO DE LAS PRIMERAS
+3 ANIMACIONES
+bnrSlide*/
+.bnrSlide{
+    width: 25%; 
+    height: 100%;
+    padding-top: 3%;
+    margin-left: -15px;
+  }
+
+  .titfunciona{
+    margin-top:400px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titfunciona2{
+    margin-top:175px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+  }
+/*Posicion y tamaño de la cuarta animación
+bnrSlide2
+*/
+  .bnrSlide2{
+    width: 20%; 
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 900px;
+  }
+
+  .container-envelope p, .container-envelope-right p{
+    font-size: 14px;
+  }
+
+  .container-envelope {  
+    top: 10%;
+    left: 5%;
+    width: 40%
+  }
+  .container-envelope-right {
+    top: 10%;
+    right: 5%;
+    width: 40%
+  }
+  .foto {
+  width: 90%;
+  height: auto; 
+
+  }
+  .estos{
+  text-align: right;
+  }
+  .tituloBnr{
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+
+.goup{
+  bottom: 25px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  width: 50px;
+}
+
+.btn2 {
+  background: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.uneteImg{
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-envelope {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.container-envelope-right {
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.coll-xs-12{
+  padding: 10px;
+  background-color: rgba(204, 204, 204, .5);
+}
+
+.estrellas{
+  line-height: 0px;
+  font-size: 0px;
+}
+.tituloBnr{
+  font-family: Quicksand;
+}
+.tituloBnr, .tituloBnrs{
+  font-family: Quicksand;
+}
+
+.tituloBnrs {
+    top: 98%;
+   
+}
+.bnrSlide, .bnrUltimo, .bnrSlideEmpleabilidad{
+  
+  margin: 0 auto;
+}
+
+.morado{
+    color: #824599;
+    font-family: Montserrat;
+}
